@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WEB</string>
+    <string name="loading">Loading</string>
+    <string name="lost_connection">lost_connection</string>
+</resources>
