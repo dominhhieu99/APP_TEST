@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WEB</string>
+    <string name="app_name">VN-index</string>
     <string name="loading">Loading</string>
     <string name="lost_connection">lost_connection</string>
 </resources>
