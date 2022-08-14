@@ -11,9 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_logo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WEB">
-        <activity android:name=".Vsmart"></activity>
+
+        <activity android:name=".Vsmart" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".MainActivity2" />
-        <activity android:name=".MainActivity">
+            <activity
+                android:name=".HomeActivity"
+                >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
