@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -29,6 +30,7 @@ public class DashboardFragment extends Fragment {
         final ProgressDialog progressDialog = new ProgressDialog(getActivity());
         progressDialog.setCancelable(false);
         WebView web_view = root.findViewById(R.id.web_view);
+        Toast.makeText(getActivity(), "Google Finance", Toast.LENGTH_SHORT).show();
         WebView web_view_google_finance = root.findViewById(R.id.web_view_google_finance);
         web_view.requestFocus();
         web_view_google_finance.requestFocus();

@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -28,7 +29,7 @@ public class NotificationsFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_notifications, container, false);
         final ProgressDialog progressDialog = new ProgressDialog(getActivity());
         progressDialog.setCancelable(false);
-
+        Toast.makeText(getActivity(), "Crypto", Toast.LENGTH_SHORT).show();
         WebView web_view_google_finance = root.findViewById(R.id.web_view_google_finance);
         web_view_google_finance.requestFocus();
         web_view_google_finance.getSettings().setLightTouchEnabled(true);
